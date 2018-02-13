@@ -1,8 +1,3 @@
-coin = ['head','tail','head','tail','head','head','head']
-# FInd how many times head came
+name = raw_input("Whats your name: ")
 
-for count in coin:
-    if count == 'head':
-        print len(count)
-    else:
-        print ("All tails")
+print("hello " + name + " Have a good day")
