@@ -4,3 +4,5 @@ coin = ['head','tail','head','tail','head','head','head']
 for count in coin:
     if count == 'head':
         print len(count)
+    else:
+        print ("All tails")
